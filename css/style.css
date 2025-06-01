@@ -50,7 +50,7 @@ h6 {
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
-    color: #020312;
+    color: #0D3B66;
 }
 
 h1 {
@@ -78,7 +78,7 @@ h6 {
 }
 
 a {
-    color: #020312;
+    color: #0D3B66;
 }
 
 a:hover {
@@ -109,7 +109,7 @@ ul li {
 
 /* button */
 .button {
-    background: #415678;
+    background: #0D3B66;
     padding: 12px 30px;
     font-weight: 500;
     font-size: 15px;
@@ -128,15 +128,15 @@ ul li {
 
 .button.button-secondary {
     background: transparent;
-    border: 2px solid #415678;
+    border: 2px solid #0D3B66;
     color: #222;
     margin-top: 22px;
 }
 
 .button.button-secondary:hover {
-    border-color: #415678;
+    border-color: #0D3B66;
     color: #fff;
-    background: #415678;
+    background: #0D3B66;
     transition: .5s ease-out;
 }
 
@@ -156,7 +156,7 @@ ul li {
 .section-title .title-top {
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #415678;
+    color: #0D3B66;
     letter-spacing: 4px;
     font-size: 18px;
 }
@@ -183,7 +183,7 @@ ul li {
 
 .navbar .navbar-brand h1 {
     font-size: 26px;
-    color: #020312;
+    color: #0D3B66;
 }
 
 .navbar .navbar-brand img {
@@ -199,12 +199,12 @@ ul li {
 .navbar .navbar-nav li .nav-link {
     font-size: 15px;
     font-weight: 500;
-    color: #020312;
+    color: #0D3B66;
     transition: all .3s ease;
 }
 
 .navbar .navbar-nav li:hover .nav-link {
-    color: #415678;
+    color: #F4B400;
 }
 
 .navbar .navbar-toggler {
@@ -237,7 +237,7 @@ ul li {
 }
 
 .home-intro .content h2 .color-highlight {
-    color: #415678;
+    color: #F4B400;
 }
 
 .home-intro .content h2:nth-child(2) {
@@ -269,7 +269,7 @@ ul li {
 
 .about .content ul li {
     font-weight: 600;
-    color: #020312;
+    color: #0D3B66;
 }
 
 .about .content ul li .circle-list {
@@ -277,7 +277,7 @@ ul li {
     height: 8px;
     border-radius: 50%;
     margin-right: 10px;
-    background: #415678;
+    background: #0D3B66;
     display: inline-block;
 }
 
@@ -287,7 +287,7 @@ ul li {
 }
 
 .process-work .row .col-md-3:nth-last-child(odd) .content {
-    background: #415678;
+    background: #0D3B66;
 }
 
 .process-work .row .col-md-3:nth-last-child(odd) .content i {
@@ -311,7 +311,7 @@ ul li {
 }
 
 .process-work .content:hover {
-    background: #415678;
+    background: #0D3B66;
     transition: all .3s ease;
 }
 
@@ -329,7 +329,7 @@ ul li {
 
 .process-work .content i {
     font-size: 60px;
-    color: #415678;
+    color: #0D3B66;
 }
 
 .process-work .content h5 {
@@ -350,7 +350,7 @@ ul li {
 }
 
 .portfolio .portfolio-filter-menu ul li.active {
-    color: #415678;
+    color: #0D3B66;
     font-weight: 800;
 }
 
@@ -391,7 +391,7 @@ ul li {
 }
 
 .portfolio .content-image .image-overlay {
-    background: #020312;
+    background: #0D3B66;
     opacity: 0.5;
     position: absolute;
     width: 100%;
@@ -436,7 +436,7 @@ ul li {
 }
 
 .services .content:hover {
-    background: #415678;
+    background: #0D3B66;
     transition: all .3s ease;
 }
 
@@ -459,11 +459,11 @@ ul li {
 
 .services .content i {
     font-size: 60px;
-    color: #415678;
+    color: #0D3B66;
 }
 .services .content ion-icon{
     font-size: 60px;
-    color: #415678;
+    color: #0D3B66;
 }
 .services .content .clone-icon i {
     position: absolute;
@@ -526,7 +526,7 @@ ul li {
 }
 
 .news .content:hover h4 {
-    color: #415678;
+    color: #0D3B66;
 }
 
 .news .content img {
@@ -584,7 +584,7 @@ form textarea {
 
 /* footer bottom */
 .footer-bottom {
-    background: #020312;
+    background: #0D3B66;
     text-align: center;
     padding: 35px 0 35px;
     border-top: 1px solid #23375b;
@@ -592,7 +592,7 @@ form textarea {
 
 /* footer */
 footer {
-    background: #020312;
+    background: #0D3B66;
     padding: 90px 0 80px;
 }
 

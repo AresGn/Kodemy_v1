@@ -34,13 +34,13 @@ $(function() {
             $(".navbar").addClass("navbar-fixed");
 
             $(".navbar-ng .navbar-collapse .current a").css({
-                "color": "blue"
+                "color": "#0D3B66"
             });
         }
         else {
             $(".navbar").removeClass("navbar-fixed");
             $(".navbar-ng .navbar-collapse .current a").css({
-                "background-color": "#ffc107"
+                "background-color": "#F4B400"
             });
 
         }
