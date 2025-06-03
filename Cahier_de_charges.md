@@ -125,6 +125,7 @@ Sections verticales successives :
 * Boutons : Envoyer ma demande / Réserver un appel (calendrier intégré)
 * Infos : [contact@kodemy.com](mailto:contact@kodemy.com) | +33 1 23 45 67 89 | LinkedIn, Twitter, GitHub
 * Micro-interactions : validation instantanée, confirmation animée
+
 ## Optimisation SEO & Référencement
 * Balises HTML sémantiques (h1, h2, h3)
 * Méta-données (title, description)

@@ -1,10 +1,10 @@
 <?php
 // Configuration de la base de données
-// $dsn = "mysql:host=localhost;dbname=u433704782_KodemyFrWeb";
-// $username = "u433704782_kodemyfr";
-// $password = "kodemyfrPassWord";
+// $dsn = "mysql:host=localhost;dbname=u433704782_KodemyWeb";
+// $username = "u433704782_Kodemy";
+// $password = "KodemyPassWord";
 
-$dsn = "mysql:host=localhost;dbname=kodemyfr";
+$dsn = "mysql:host=localhost;dbname=Kodemy";
 $username = "root";
 $password = "";
 
