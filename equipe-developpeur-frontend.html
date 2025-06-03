@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Développeur Frontend - Équipe Kodemy</title>
+    <meta
+      name="description"
+      content="Découvrez le profil de notre Développeur Frontend, expert en technologies modernes et création d'interfaces utilisateur exceptionnelles."
+    />
+    <link rel="icon" href="images/logo.png" />
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end font -->
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- loader -->
+    <div class="fakeLoader"></div>
+    <!-- end loader -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img src="images/logo.png" alt="Kodemy" />
+          <h1>Kodemy</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="icon ion-ios-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- Accueil -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="icon ion-ios-home"></i>
+                <span>Accueil</span>
+              </a>
+            </li>
+
+            <!-- Services Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="index.html#services"
+                id="servicesDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="icon ion-ios-briefcase"></i>
+                <span>Services</span>
+                <i class="icon ion-ios-arrow-down dropdown-arrow"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <a class="dropdown-item" href="vitrine-digitale.html">
+                  <i class="icon ion-ios-desktop"></i>
+                  <span>Vitrine Digitale</span>
+                </a>
+                <a class="dropdown-item" href="e-commerce.html">
+                  <i class="icon ion-ios-card"></i>
+                  <span>E-commerce</span>
+                </a>
+                <a class="dropdown-item" href="booking-agenda.html">
+                  <i class="icon ion-ios-calendar"></i>
+                  <span>Booking & Agenda</span>
+                </a>
+                <a class="dropdown-item" href="crm-backoffice.html">
+                  <i class="icon ion-ios-settings"></i>
+                  <span>CRM & Backoffice</span>
+                </a>
+                <a class="dropdown-item" href="ia-workflows.html">
+                  <i class="icon ion-ios-bulb"></i>
+                  <span>IA & Workflows</span>
+                </a>
+                <a class="dropdown-item" href="solutions-sur-mesure.html">
+                  <i class="icon ion-ios-construct"></i>
+                  <span>Solutions Sur-mesure</span>
+                </a>
+              </div>
+            </li>
+
+            <!-- À propos Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="index.html#about"
+                id="aboutDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="icon ion-ios-information-circle"></i>
+                <span>À propos</span>
+                <i class="icon ion-ios-arrow-down dropdown-arrow"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <a class="dropdown-item" href="index.html#about">
+                  <i class="icon ion-ios-checkmark-circle"></i>
+                  <span>Pourquoi Kodemy</span>
+                </a>
+                <a class="dropdown-item" href="index.html#team">
+                  <i class="icon ion-ios-people"></i>
+                  <span>Notre Équipe</span>
+                </a>
+                <a class="dropdown-item" href="index.html#actualites">
+                  <i class="icon ion-ios-paper"></i>
+                  <span>Actualités</span>
+                </a>
+                <a class="dropdown-item" href="index.html#portfolio">
+                  <i class="icon ion-ios-images"></i>
+                  <span>Inspirations</span>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <!-- CTA Button -->
+          <div class="navbar-cta">
+            <a href="index.html#contact" class="btn-cta">
+              <i class="icon ion-ios-mail"></i>
+              <span>Demander un devis</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- member profile -->
+    <div class="member-profile section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="member-avatar-large">
+              <div class="avatar-circle-large">
+                <span class="avatar-initials-large">DF</span>
+              </div>
+              <div class="member-contact-info">
+                <h3>Développeur Frontend</h3>
+                <p class="member-title">Interfaces & Expérience Utilisateur</p>
+                <div class="member-education">
+                  <span class="education-badge">Licence Info & Télécom</span>
+                </div>
+                <div class="member-social-links">
+                  <a
+                    href="#"
+                    class="linkedin-link"
+                    aria-label="Profil LinkedIn"
+                  >
+                    <i class="icon ion-logo-linkedin"></i>
+                  </a>
+                  <a
+                    href="mailto:frontend@kodemy.fr"
+                    class="email-link"
+                    aria-label="Envoyer un email"
+                  >
+                    <i class="icon ion-ios-mail"></i>
+                  </a>
+                  <a href="#" class="github-link" aria-label="Profil GitHub">
+                    <i class="icon ion-logo-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="member-details">
+              <h1>Créateur d'Expériences Digitales Exceptionnelles</h1>
+              <p class="member-intro">
+                Spécialiste des technologies frontend modernes, notre
+                développeur transforme les concepts en expériences utilisateur
+                intuitives et performantes. Expert en React, Vue.js et design
+                responsive, il maîtrise l'art de créer des interfaces qui
+                captivent et convertissent.
+              </p>
+
+              <div class="member-expertise">
+                <h4>Stack technique</h4>
+                <div class="tech-stack">
+                  <div class="tech-category">
+                    <h5>Frameworks & Librairies</h5>
+                    <div class="tech-tags">
+                      <span class="tech-tag">React.js</span>
+                      <span class="tech-tag">Vue.js</span>
+                      <span class="tech-tag">Angular</span>
+                      <span class="tech-tag">Next.js</span>
+                      <span class="tech-tag">Nuxt.js</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <h5>Langages & Outils</h5>
+                    <div class="tech-tags">
+                      <span class="tech-tag">JavaScript ES6+</span>
+                      <span class="tech-tag">TypeScript</span>
+                      <span class="tech-tag">HTML5/CSS3</span>
+                      <span class="tech-tag">SASS/SCSS</span>
+                      <span class="tech-tag">Webpack</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <h5>Design & UX</h5>
+                    <div class="tech-tags">
+                      <span class="tech-tag">Figma</span>
+                      <span class="tech-tag">Adobe XD</span>
+                      <span class="tech-tag">Responsive Design</span>
+                      <span class="tech-tag">Animations CSS</span>
+                      <span class="tech-tag">Accessibilité</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member-projects">
+                <h4>Réalisations marquantes</h4>
+                <div class="project-list">
+                  <div class="project-item">
+                    <h5>Dashboard Analytics SaaS</h5>
+                    <p>
+                      Développement d'un dashboard complexe en React avec
+                      visualisations de données en temps réel. Intégration de
+                      Chart.js et optimisation des performances pour 10 000+
+                      utilisateurs.
+                    </p>
+                    <span class="project-result"
+                      >Performance : 95/100 Lighthouse Score</span
+                    >
+                  </div>
+                  <div class="project-item">
+                    <h5>E-commerce Mode Responsive</h5>
+                    <p>
+                      Création d'une boutique en ligne complète avec Vue.js et
+                      Nuxt.js. Design mobile-first, animations fluides et
+                      intégration paiement Stripe.
+                    </p>
+                    <span class="project-result"
+                      >Conversion : +35% sur mobile</span
+                    >
+                  </div>
+                  <div class="project-item">
+                    <h5>Application Web Progressive (PWA)</h5>
+                    <p>
+                      Développement d'une PWA pour une startup de livraison.
+                      Fonctionnalités offline, notifications push et
+                      installation native.
+                    </p>
+                    <span class="project-result"
+                      >Engagement : +60% de rétention</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="member-cta">
+                <h4>Créons ensemble votre interface parfaite</h4>
+                <p>
+                  Besoin d'une interface moderne, performante et qui convertit ?
+                  Discutons de votre vision !
+                </p>
+                <div class="cta-buttons">
+                  <a href="index.html#contact" class="button"
+                    >Démarrer un projet</a
+                  >
+                  <a
+                    href="mailto:frontend@kodemy.fr"
+                    class="button button-secondary"
+                    >Contact technique</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end member profile -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="content">
+              <div class="brand">
+                <img src="images/logo.png" alt="Kodemy" />Kodemy
+              </div>
+              <p>Nous construisons l'avenir dans le présent.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="content">
+              <h5>Navigation</h5>
+              <ul>
+                <li>
+                  <a href="#about"
+                    ><i class="icon ion-ios-contact"></i> Pourquoi Kodemy</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><i class="icon ion-ios-briefcase"></i> Nos services</a
+                  >
+                </li>
+                <li>
+                  <a href="#portfolio"
+                    ><i class="icon ion-ios-images"></i> Inspirations</a
+                  >
+                </li>
+                <li>
+                  <a href="#team"
+                    ><i class="icon ion-ios-people"></i> Qui sommes-nous</a
+                  >
+                </li>
+                <li>
+                  <a href="#actualites"
+                    ><i class="icon ion-ios-paper"></i> Actualités</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="content">
+              <h5>Contact</h5>
+              <ul>
+                <li>
+                  <a href="mailto:contact@kodemy.fr"
+                    ><i class="icon ion-ios-mail"></i> contact@kodemy.fr</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+33123456789"
+                    ><i class="icon ion-ios-call"></i> +33 1 23 45 67 89</a
+                  >
+                </li>
+                <li>
+                  <a href="#contact"
+                    ><i class="icon ion-ios-chatbubbles"></i> Nous contacter</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="content">
+              <h5>Suivez-nous</h5>
+              <ul class="social">
+                <li>
+                  <a href=""><i class="icon ion-logo-linkedin"></i> LinkedIn</a>
+                </li>
+                <li>
+                  <a href=""><i class="icon ion-logo-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                  <a href=""><i class="icon ion-logo-github"></i> GitHub</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- footer bottom -->
+    <div class="footer-bottom">
+      <span>Kodemy © 2025. Tous droits réservés.</span>
+    </div>
+    <!-- end footer bottom -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- script -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -39,21 +39,76 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#home">Accueil</a>
+						<a class="nav-link" href="#home">
+							<i class="icon ion-ios-home"></i>
+							<span>Accueil</span>
+						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">Pourquoi Kodemy</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="icon ion-ios-briefcase"></i>
+							<span>Services</span>
+							<i class="icon ion-ios-arrow-down dropdown-arrow"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="servicesDropdown">
+							<a class="dropdown-item" href="vitrine-digitale.html">
+								<i class="icon ion-ios-desktop"></i>
+								<span>Vitrine Digitale</span>
+							</a>
+							<a class="dropdown-item" href="e-commerce.html">
+								<i class="icon ion-ios-card"></i>
+								<span>E-commerce</span>
+							</a>
+							<a class="dropdown-item" href="booking-agenda.html">
+								<i class="icon ion-ios-calendar"></i>
+								<span>Booking & Agenda</span>
+							</a>
+							<a class="dropdown-item" href="crm-backoffice.html">
+								<i class="icon ion-ios-settings"></i>
+								<span>CRM & Backoffice</span>
+							</a>
+							<a class="dropdown-item" href="ia-workflows.html">
+								<i class="icon ion-ios-bulb"></i>
+								<span>IA & Workflows</span>
+							</a>
+							<a class="dropdown-item" href="solutions-sur-mesure.html">
+								<i class="icon ion-ios-construct"></i>
+								<span>Solutions Sur-mesure</span>
+							</a>
+						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#services">Ce que nous faisons</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio">Inspirations</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contactez-nous</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="icon ion-ios-information-circle"></i>
+							<span>À propos</span>
+							<i class="icon ion-ios-arrow-down dropdown-arrow"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="aboutDropdown">
+							<a class="dropdown-item" href="#about">
+								<i class="icon ion-ios-checkmark-circle"></i>
+								<span>Pourquoi Kodemy</span>
+							</a>
+							<a class="dropdown-item" href="#team">
+								<i class="icon ion-ios-people"></i>
+								<span>Notre Équipe</span>
+							</a>
+							<a class="dropdown-item" href="#actualites">
+								<i class="icon ion-ios-paper"></i>
+								<span>Actualités</span>
+							</a>
+							<a class="dropdown-item" href="#portfolio">
+								<i class="icon ion-ios-images"></i>
+								<span>Inspirations</span>
+							</a>
+						</div>
 					</li>
 				</ul>
+				<div class="navbar-cta">
+					<a href="#contact" class="btn-cta">
+						<i class="icon ion-ios-mail"></i>
+						<span>Demander un devis</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</nav>
@@ -116,6 +171,9 @@
 							<li><span class="circle-list"></span>Déploiement express en 7 jours</li>
 							<li><span class="circle-list"></span>Support & conseils dédiés</li>
 						</ul>
+						<div class="about-cta" style="margin-top: 30px;">
+							<a href="about.html" class="button">En savoir plus</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -393,6 +451,333 @@
 	</div>
 	<!-- end services -->
 
+	<!-- team section -->
+	<div id="team" class="team-section section">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Qui sommes-nous</h5>
+				<h3>L'équipe qui donne vie à vos projets</h3>
+				<p class="title-desc">
+					"Nous construisons l'avenir dans le présent, en alliant expertise technique et créativité pour transformer vos idées en solutions digitales exceptionnelles."
+				</p>
+			</div>
+
+			<div class="row team-members">
+				<!-- Directeur Général -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-card">
+						<div class="team-avatar">
+							<div class="avatar-circle">
+								<span class="avatar-initials">DG</span>
+							</div>
+							<div class="avatar-decoration"></div>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Directeur Général</h5>
+							<p class="team-role">Leadership & Vision Stratégique</p>
+							<div class="team-education">
+								<span class="education-badge">Ingénieur BTP</span>
+							</div>
+							<p class="team-bio">
+								Expert en gestion de projets complexes et en innovation technologique.
+								Pilote la vision stratégique de Kodemy avec une approche centrée sur l'excellence et la satisfaction client.
+							</p>
+							<div class="team-specialties">
+								<span class="specialty-tag">Management</span>
+								<span class="specialty-tag">Innovation</span>
+								<span class="specialty-tag">Stratégie</span>
+							</div>
+							<div class="team-social">
+								<a href="#" class="linkedin-link" aria-label="Profil LinkedIn du Directeur Général">
+									<i class="icon ion-logo-linkedin"></i>
+								</a>
+							</div>
+							<div class="team-profile-link">
+								<a href="equipe-directeur-general.html" class="button button-secondary">Voir le profil</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Développeur Frontend -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-card">
+						<div class="team-avatar">
+							<div class="avatar-circle">
+								<span class="avatar-initials">DF</span>
+							</div>
+							<div class="avatar-decoration"></div>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Développeur Frontend</h5>
+							<p class="team-role">Interfaces & Expérience Utilisateur</p>
+							<div class="team-education">
+								<span class="education-badge">Licence Info & Télécom</span>
+							</div>
+							<p class="team-bio">
+								Spécialiste des technologies frontend modernes, créateur d'interfaces intuitives et performantes.
+								Transforme les concepts en expériences utilisateur exceptionnelles.
+							</p>
+							<div class="team-specialties">
+								<span class="specialty-tag">React/Vue.js</span>
+								<span class="specialty-tag">UI/UX</span>
+								<span class="specialty-tag">Responsive</span>
+							</div>
+							<div class="team-social">
+								<a href="#" class="linkedin-link" aria-label="Profil LinkedIn du Développeur Frontend">
+									<i class="icon ion-logo-linkedin"></i>
+								</a>
+							</div>
+							<div class="team-profile-link">
+								<a href="equipe-developpeur-frontend.html" class="button button-secondary">Voir le profil</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Développeur Backend -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-card">
+						<div class="team-avatar">
+							<div class="avatar-circle">
+								<span class="avatar-initials">DB</span>
+							</div>
+							<div class="avatar-decoration"></div>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Développeur Backend</h5>
+							<p class="team-role">Architecture & Sécurité</p>
+							<div class="team-education">
+								<span class="education-badge">Licence Info & Télécom</span>
+							</div>
+							<p class="team-bio">
+								Architecte des solutions serveur robustes et sécurisées.
+								Expert en bases de données, APIs et optimisation des performances pour des applications scalables.
+							</p>
+							<div class="team-specialties">
+								<span class="specialty-tag">Node.js/PHP</span>
+								<span class="specialty-tag">Databases</span>
+								<span class="specialty-tag">APIs</span>
+							</div>
+							<div class="team-social">
+								<a href="#" class="linkedin-link" aria-label="Profil LinkedIn du Développeur Backend">
+									<i class="icon ion-logo-linkedin"></i>
+								</a>
+							</div>
+							<div class="team-profile-link">
+								<a href="equipe-developpeur-backend.html" class="button button-secondary">Voir le profil</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Designer Graphique UI/UX -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-card">
+						<div class="team-avatar">
+							<div class="avatar-circle">
+								<span class="avatar-initials">DU</span>
+							</div>
+							<div class="avatar-decoration"></div>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Designer UI/UX</h5>
+							<p class="team-role">Design & Créativité</p>
+							<div class="team-education">
+								<span class="education-badge">Licence Info & Télécom</span>
+							</div>
+							<p class="team-bio">
+								Créateur d'expériences visuelles mémorables et fonctionnelles.
+								Allie esthétique et ergonomie pour concevoir des interfaces qui captivent et convertissent.
+							</p>
+							<div class="team-specialties">
+								<span class="specialty-tag">Figma/Adobe</span>
+								<span class="specialty-tag">Prototyping</span>
+								<span class="specialty-tag">Branding</span>
+							</div>
+							<div class="team-social">
+								<a href="#" class="linkedin-link" aria-label="Profil LinkedIn du Designer UI/UX">
+									<i class="icon ion-logo-linkedin"></i>
+								</a>
+							</div>
+							<div class="team-profile-link">
+								<a href="equipe-designer-ux-ui.html" class="button button-secondary">Voir le profil</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end team section -->
+
+	<!-- actualites & ressources -->
+	<div id="actualites" class="blog-section section">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Actualités & Ressources</h5>
+				<h3>Restez informés et boostez votre projet digital</h3>
+				<p class="title-desc">
+					Découvrez nos contenus exclusifs pour optimiser votre présence digitale et rester à la pointe des dernières tendances technologiques.
+				</p>
+			</div>
+
+			<!-- Filtres de catégories -->
+			<div class="blog-filters">
+				<button class="filter-btn active" data-filter="all">
+					<span>Tous les articles</span>
+				</button>
+				<button class="filter-btn" data-filter="dev-web">
+					<span>Dev Web</span>
+				</button>
+				<button class="filter-btn" data-filter="ux-ui">
+					<span>UX/UI</span>
+				</button>
+				<button class="filter-btn" data-filter="ia">
+					<span>Intelligence Artificielle</span>
+				</button>
+			</div>
+
+			<!-- Grille d'articles -->
+			<div class="blog-grid" id="blog-grid">
+				<!-- Article 1 - Dev Web -->
+				<article class="blog-card" data-category="dev-web">
+					<div class="blog-image">
+						<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjMEQzQjY2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5EZXYgV2ViPC90ZXh0Pgo8L3N2Zz4K"
+							 alt="Développement Web moderne"
+							 loading="lazy">
+						<div class="blog-category">Dev Web</div>
+					</div>
+					<div class="blog-content">
+						<time class="blog-date" datetime="2025-01-15">15 janvier 2025</time>
+						<h4 class="blog-title">Les tendances du développement web en 2025</h4>
+						<p class="blog-excerpt">
+							Découvrez les technologies émergentes qui révolutionnent le développement web : frameworks modernes, performance optimisée et nouvelles approches...
+						</p>
+						<a href="#" class="blog-link" aria-label="Lire l'article sur les tendances du développement web">
+							Lire la suite <i class="icon ion-ios-arrow-forward"></i>
+						</a>
+					</div>
+				</article>
+
+				<!-- Article 2 - UX/UI -->
+				<article class="blog-card" data-category="ux-ui">
+					<div class="blog-image">
+						<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjRCNDAwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5VWC9VSTwvdGV4dD4KPC9zdmc+Cg=="
+							 alt="Design UX/UI moderne"
+							 loading="lazy">
+						<div class="blog-category">UX/UI</div>
+					</div>
+					<div class="blog-content">
+						<time class="blog-date" datetime="2025-01-12">12 janvier 2025</time>
+						<h4 class="blog-title">Comment créer une expérience utilisateur exceptionnelle</h4>
+						<p class="blog-excerpt">
+							Les principes fondamentaux du design UX/UI pour concevoir des interfaces intuitives qui convertissent et fidélisent vos utilisateurs...
+						</p>
+						<a href="#" class="blog-link" aria-label="Lire l'article sur l'expérience utilisateur">
+							Lire la suite <i class="icon ion-ios-arrow-forward"></i>
+						</a>
+					</div>
+				</article>
+
+				<!-- Article 3 - IA -->
+				<article class="blog-card" data-category="ia">
+					<div class="blog-image">
+						<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjNzE3ZTk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5JQTwvdGV4dD4KPC9zdmc+Cg=="
+							 alt="Intelligence Artificielle"
+							 loading="lazy">
+						<div class="blog-category">IA</div>
+					</div>
+					<div class="blog-content">
+						<time class="blog-date" datetime="2025-01-10">10 janvier 2025</time>
+						<h4 class="blog-title">Intégrer l'IA dans votre stratégie digitale</h4>
+						<p class="blog-excerpt">
+							Comment l'intelligence artificielle transforme les entreprises : chatbots, automatisation, personnalisation et nouvelles opportunités business...
+						</p>
+						<a href="#" class="blog-link" aria-label="Lire l'article sur l'intelligence artificielle">
+							Lire la suite <i class="icon ion-ios-arrow-forward"></i>
+						</a>
+					</div>
+				</article>
+
+				<!-- Article 4 - Dev Web -->
+				<article class="blog-card" data-category="dev-web">
+					<div class="blog-image">
+						<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjMEQzQjY2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5EZXYgV2ViPC90ZXh0Pgo8L3N2Zz4K"
+							 alt="Performance web"
+							 loading="lazy">
+						<div class="blog-category">Dev Web</div>
+					</div>
+					<div class="blog-content">
+						<time class="blog-date" datetime="2025-01-08">8 janvier 2025</time>
+						<h4 class="blog-title">Optimiser les performances de votre site web</h4>
+						<p class="blog-excerpt">
+							Techniques avancées pour améliorer la vitesse de chargement, le SEO et l'expérience utilisateur de votre site web professionnel...
+						</p>
+						<a href="#" class="blog-link" aria-label="Lire l'article sur l'optimisation des performances">
+							Lire la suite <i class="icon ion-ios-arrow-forward"></i>
+						</a>
+					</div>
+				</article>
+
+				<!-- Article 5 - UX/UI -->
+				<article class="blog-card" data-category="ux-ui">
+					<div class="blog-image">
+						<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjRCNDAwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5VWC9VSTwvdGV4dD4KPC9zdmc+Cg=="
+							 alt="Design responsive"
+							 loading="lazy">
+						<div class="blog-category">UX/UI</div>
+					</div>
+					<div class="blog-content">
+						<time class="blog-date" datetime="2025-01-05">5 janvier 2025</time>
+						<h4 class="blog-title">Design responsive : les meilleures pratiques 2025</h4>
+						<p class="blog-excerpt">
+							Maîtrisez les techniques modernes du design responsive pour créer des interfaces parfaites sur tous les appareils et écrans...
+						</p>
+						<a href="#" class="blog-link" aria-label="Lire l'article sur le design responsive">
+							Lire la suite <i class="icon ion-ios-arrow-forward"></i>
+						</a>
+					</div>
+				</article>
+
+				<!-- Article 6 - IA -->
+				<article class="blog-card" data-category="ia">
+					<div class="blog-image">
+						<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjNzE3ZTk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5JQTwvdGV4dD4KPC9zdmc+Cg=="
+							 alt="Chatbots IA"
+							 loading="lazy">
+						<div class="blog-category">IA</div>
+					</div>
+					<div class="blog-content">
+						<time class="blog-date" datetime="2025-01-03">3 janvier 2025</time>
+						<h4 class="blog-title">Chatbots intelligents : révolutionner votre service client</h4>
+						<p class="blog-excerpt">
+							Implémentez des assistants virtuels performants pour automatiser votre support client et améliorer la satisfaction utilisateur 24h/24...
+						</p>
+						<a href="#" class="blog-link" aria-label="Lire l'article sur les chatbots intelligents">
+							Lire la suite <i class="icon ion-ios-arrow-forward"></i>
+						</a>
+					</div>
+				</article>
+			</div>
+
+			<!-- Bouton Load More -->
+			<div class="blog-load-more">
+				<button id="load-more-btn" class="button">
+					Charger plus d'articles
+				</button>
+			</div>
+
+			<!-- CTA vers toutes les ressources -->
+			<div class="blog-cta">
+				<h4>Explorez toutes nos ressources</h4>
+				<p>Accédez à notre bibliothèque complète d'articles, tutoriels et guides pratiques</p>
+				<a href="#actualites" class="button button-secondary">Voir toutes les ressources</a>
+			</div>
+		</div>
+	</div>
+	<!-- end actualites & ressources -->
+
 	<!-- words -->
 	<div class="words-section section-bottom-only">
 		<div class="container">
@@ -502,6 +887,8 @@
 							<li><a href="#about"><i class="icon ion-ios-contact"></i> Pourquoi Kodemy</a></li>
 							<li><a href="#services"><i class="icon ion-ios-briefcase"></i> Nos services</a></li>
 							<li><a href="#portfolio"><i class="icon ion-ios-images"></i> Inspirations</a></li>
+							<li><a href="#team"><i class="icon ion-ios-people"></i> Qui sommes-nous</a></li>
+							<li><a href="#actualites"><i class="icon ion-ios-paper"></i> Actualités</a></li>
 						</ul>
 					</div>
 				</div>
