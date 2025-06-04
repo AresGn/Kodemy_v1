@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Booking & Agenda - Kodemy | Systèmes de réservation intelligents</title>
+	<meta name="description"
+		content="Optimisez votre gestion des rendez-vous avec Kodemy. Systèmes de réservation en ligne, calendriers synchronisés et notifications automatiques.">
+	<link rel="icon" href="images/logo.png">
+
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<!-- end font -->
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- loader -->
+	<div class="fakeLoader"></div>
+	<!-- end loader -->
+
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-md navbar-light fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Kodemy">
+				<h1>Kodemy</h1>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="icon ion-ios-menu"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">
+							<i class="icon ion-ios-home"></i>
+							<span>Accueil</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="icon ion-ios-briefcase"></i>
+							<span>Services</span>
+							<i class="icon ion-ios-arrow-down dropdown-arrow"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="servicesDropdown">
+							<a class="dropdown-item" href="vitrine-digitale.html">
+								<i class="icon ion-ios-desktop"></i>
+								<span>Vitrine Digitale</span>
+							</a>
+							<a class="dropdown-item" href="e-commerce.html">
+								<i class="icon ion-ios-card"></i>
+								<span>E-commerce</span>
+							</a>
+							<a class="dropdown-item" href="booking-agenda.html">
+								<i class="icon ion-ios-calendar"></i>
+								<span>Booking & Agenda</span>
+							</a>
+							<a class="dropdown-item" href="crm-backoffice.html">
+								<i class="icon ion-ios-settings"></i>
+								<span>CRM & Backoffice</span>
+							</a>
+							<a class="dropdown-item" href="ia-workflows.html">
+								<i class="icon ion-ios-bulb"></i>
+								<span>IA & Workflows</span>
+							</a>
+							<a class="dropdown-item" href="solutions-sur-mesure.html">
+								<i class="icon ion-ios-construct"></i>
+								<span>Solutions Sur-mesure</span>
+							</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="icon ion-ios-information-circle"></i>
+							<span>À propos</span>
+							<i class="icon ion-ios-arrow-down dropdown-arrow"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="aboutDropdown">
+							<a class="dropdown-item" href="about.html">
+								<i class="icon ion-ios-checkmark-circle"></i>
+								<span>Pourquoi Kodemy</span>
+							</a>
+							<a class="dropdown-item" href="index.html#team">
+								<i class="icon ion-ios-people"></i>
+								<span>Notre Équipe</span>
+							</a>
+							<a class="dropdown-item" href="index.html#actualites">
+								<i class="icon ion-ios-paper"></i>
+								<span>Actualités</span>
+							</a>
+							<a class="dropdown-item" href="index.html#portfolio">
+								<i class="icon ion-ios-images"></i>
+								<span>Inspirations</span>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<div class="navbar-cta">
+					<a href="index.html#contact" class="btn-cta">
+						<i class="icon ion-ios-mail"></i>
+						<span>Demander un devis</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- end navbar -->
+
+	<!-- hero section -->
+	<div class="service-hero section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6">
+					<div class="content">
+						<h1><span class="color-highlight">Booking & Agenda</span></h1>
+						<h2>Simplifiez vos réservations en temps réel</h2>
+						<p class="lead">
+							Automatisez la prise de rendez-vous avec un système intelligent qui synchronise 
+							vos calendriers, envoie des rappels et optimise votre planning.
+						</p>
+						<div class="hero-cta">
+							<a href="index.html#contact" class="button">Demander un devis</a>
+							<a href="#exemples" class="button button-secondary">Voir nos systèmes</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="content-image">
+						<img src="images/header-img.png" alt="Système de réservation intelligent">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end hero section -->
+
+	<!-- service description -->
+	<div class="service-description section">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Notre Service</h5>
+				<h3>Qu'est-ce qu'un système de booking & agenda ?</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-8 mx-auto">
+					<div class="content text-center">
+						<p class="lead">
+							Un système de réservation intelligent qui permet à vos clients de prendre 
+							rendez-vous en ligne 24h/24, tout en synchronisant automatiquement vos 
+							calendriers et en gérant les notifications.
+						</p>
+						<p>
+							Fini les appels téléphoniques et les doubles réservations. Votre système 
+							gère tout automatiquement : disponibilités, confirmations, rappels et 
+							même les annulations avec reprogrammation intelligente.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end service description -->
+
+	<!-- features -->
+	<div class="service-features section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Fonctionnalités Incluses</h5>
+				<h3>Tout pour optimiser votre gestion des rendez-vous</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<i class="icon ion-ios-calendar"></i>
+						</div>
+						<h5>Réservation en Ligne</h5>
+						<p>
+							Interface intuitive pour que vos clients 
+							réservent facilement leurs créneaux préférés.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<i class="icon ion-ios-sync"></i>
+						</div>
+						<h5>Synchronisation Calendriers</h5>
+						<p>
+							Intégration avec Google Calendar, Outlook 
+							et autres agendas professionnels.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<i class="icon ion-ios-notifications"></i>
+						</div>
+						<h5>Rappels Automatiques</h5>
+						<p>
+							Notifications SMS et email automatiques 
+							pour réduire les absences et no-shows.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<i class="icon ion-ios-people"></i>
+						</div>
+						<h5>Gestion Multi-Praticiens</h5>
+						<p>
+							Système adapté aux équipes avec gestion 
+							des disponibilités individuelles.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<i class="icon ion-ios-card"></i>
+						</div>
+						<h5>Paiement en Ligne</h5>
+						<p>
+							Possibilité de paiement d'acomptes ou 
+							règlement complet lors de la réservation.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<i class="icon ion-ios-stats"></i>
+						</div>
+						<h5>Statistiques Détaillées</h5>
+						<p>
+							Tableaux de bord pour analyser votre 
+							activité et optimiser vos créneaux.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end features -->
+
+	<!-- process -->
+	<div class="service-process section">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Notre Processus</h5>
+				<h3>Comment nous créons votre système de réservation</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="process-step">
+						<div class="step-number">1</div>
+						<h5>Analyse des Besoins</h5>
+						<p>
+							Étude de votre activité, types de services 
+							et contraintes de planning spécifiques.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="process-step">
+						<div class="step-number">2</div>
+						<h5>Configuration Système</h5>
+						<p>
+							Paramétrage des créneaux, services, tarifs 
+							et règles de gestion automatiques.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="process-step">
+						<div class="step-number">3</div>
+						<h5>Intégrations</h5>
+						<p>
+							Connexion avec vos outils existants : 
+							calendriers, CRM, systèmes de paiement.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="process-step">
+						<div class="step-number">4</div>
+						<h5>Formation & Déploiement</h5>
+						<p>
+							Formation de votre équipe et mise en 
+							production avec accompagnement personnalisé.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end process -->
+
+	<!-- examples section -->
+	<div id="exemples" class="service-examples section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Nos Réalisations</h5>
+				<h3>Exemples de systèmes de réservation créés par Kodemy</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="example-card">
+						<div class="example-image">
+							<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjRCNDAwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTUwIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TYWxvbiBCZWF1dMOpPC90ZXh0Pgo8L3N2Zz4K"
+								 alt="Salon de beauté"
+								 loading="lazy">
+						</div>
+						<div class="example-content">
+							<h5>Salon de Beauté</h5>
+							<p>Système de réservation multi-services avec gestion des praticiens et paiement d'acomptes.</p>
+							<div class="example-tags">
+								<span class="tag">Beauté</span>
+								<span class="tag">Multi-praticiens</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="example-card">
+						<div class="example-image">
+							<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjMEQzQjY2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTUwIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DbGluaXF1ZTwvdGV4dD4KPC9zdmc+Cg=="
+								 alt="Clinique médicale"
+								 loading="lazy">
+						</div>
+						<div class="example-content">
+							<h5>Clinique Médicale</h5>
+							<p>Plateforme de prise de RDV médicaux avec rappels SMS et intégration dossier patient.</p>
+							<div class="example-tags">
+								<span class="tag">Médical</span>
+								<span class="tag">RGPD</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="example-card">
+						<div class="example-image">
+							<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjNzE3ZTk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTUwIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5Db2FjaGluZzwvdGV4dD4KPC9zdmc+Cg=="
+								 alt="Coach sportif"
+								 loading="lazy">
+						</div>
+						<div class="example-content">
+							<h5>Coach Sportif</h5>
+							<p>Application de réservation de séances avec suivi des objectifs et planning personnalisé.</p>
+							<div class="example-tags">
+								<span class="tag">Sport</span>
+								<span class="tag">Suivi</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end examples -->
+
+	<!-- testimonials -->
+	<div class="service-testimonials section">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Témoignages</h5>
+				<h3>Ce que disent nos clients</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="testimonial-card">
+						<div class="testimonial-content">
+							<p>
+								"Le système de réservation développé par Kodemy a révolutionné 
+								notre gestion. Nos clients adorent la simplicité et nous gagnons 
+								un temps précieux au quotidien. Plus de doubles réservations !"
+							</p>
+						</div>
+						<div class="testimonial-author">
+							<div class="author-info">
+								<h6>Sophie Laurent</h6>
+								<span>Propriétaire, Salon de Beauté Zen</span>
+							</div>
+							<div class="testimonial-rating">
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="testimonial-card">
+						<div class="testimonial-content">
+							<p>
+								"Nos patients apprécient énormément pouvoir prendre RDV en ligne. 
+								Le taux de no-show a diminué de 40% grâce aux rappels automatiques. 
+								Un investissement qui se rentabilise rapidement."
+							</p>
+						</div>
+						<div class="testimonial-author">
+							<div class="author-info">
+								<h6>Dr. Lucas Petit</h6>
+								<span>Médecin, Clinique Santé Plus</span>
+							</div>
+							<div class="testimonial-rating">
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+								<i class="icon ion-ios-star"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end testimonials -->
+
+	<!-- cta section -->
+	<div class="service-cta section-bottom-only">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 mx-auto text-center">
+					<h3>Prêt à automatiser vos réservations ?</h3>
+					<p class="lead">
+						Simplifiez votre gestion des rendez-vous et offrez une expérience moderne à vos clients.
+					</p>
+					<div class="cta-buttons">
+						<a href="index.html#contact" class="button">Demander un devis gratuit</a>
+						<a href="index.html#portfolio" class="button button-secondary">Voir plus de réalisations</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end cta section -->
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<div class="brand"><img src="images/logo.png" alt="Kodemy">Kodemy</div>
+						<p>
+							Votre partenaire digital de confiance pour des solutions sur-mesure qui transforment vos ambitions en succès.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<h5>Contact</h5>
+						<ul>
+							<li><i class="icon ion-ios-mail"></i> contact@kodemy.fr</li>
+							<li><i class="icon ion-ios-call"></i> +33 1 23 45 67 89</li>
+							<li><i class="icon ion-ios-pin"></i> Paris, France</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<h5>Services</h5>
+						<ul>
+							<li><a href="vitrine-digitale.html"><i class="icon ion-ios-desktop"></i> Vitrine Digitale</a></li>
+							<li><a href="e-commerce.html"><i class="icon ion-ios-card"></i> E-commerce</a></li>
+							<li><a href="booking-agenda.html"><i class="icon ion-ios-calendar"></i> Booking & Agenda</a></li>
+							<li><a href="solutions-sur-mesure.html"><i class="icon ion-ios-construct"></i> Solutions Sur-mesure</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<h5>Navigation</h5>
+						<ul>
+							<li><a href="about.html"><i class="icon ion-ios-checkmark-circle"></i> Pourquoi Kodemy</a></li>
+							<li><a href="index.html#services"><i class="icon ion-ios-briefcase"></i> Nos services</a></li>
+							<li><a href="index.html#portfolio"><i class="icon ion-ios-images"></i> Inspirations</a></li>
+							<li><a href="index.html#team"><i class="icon ion-ios-people"></i> Qui sommes-nous</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-bottom">
+						<p>&copy; 2024 Kodemy. Tous droits réservés.</p>
+						<div class="social-links">
+							<a href="#" aria-label="LinkedIn"><i class="icon ion-logo-linkedin"></i></a>
+							<a href="#" aria-label="Twitter"><i class="icon ion-logo-twitter"></i></a>
+							<a href="#" aria-label="Instagram"><i class="icon ion-logo-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
