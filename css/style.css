@@ -142,10 +142,12 @@ ul li {
 
 .section {
     padding: 90px 0;
+    background: #fff;
 }
 
 .section-bottom-only {
     padding-bottom: 90px;
+    background: #fff;
 }
 
 .section-title {
@@ -578,7 +580,7 @@ ul li {
     padding: 15px;
     background: #f8f8fc;
     border-radius: 15px;
-    transition: all .3s ease;
+    transition: all 0.4s ease;
 }
 
 .services .container{
@@ -587,19 +589,24 @@ ul li {
 
 .services .content:hover {
     background: #0D3B66;
-    transition: all .3s ease;
+    transition: all 0.4s ease;
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(13, 59, 102, 0.15);
 }
 
 .services .content:hover i {
     color: #fff;
+    transition: color 0.3s ease;
 }
 
 .services .content:hover h5 {
     color: #fff;
+    transition: color 0.3s ease;
 }
 
 .services .content:hover p {
     color: #fff;
+    transition: color 0.3s ease;
 }
 
 .services .content .serv-icon {
@@ -744,6 +751,7 @@ form textarea {
 footer {
     background: #0D3B66;
     padding: 90px 0 80px;
+    margin-top: 60px;
 }
 
 footer .brand {
@@ -888,7 +896,7 @@ footer ul.social li a i {
 
 /* team section */
 .team-section {
-    background: #f8f8fc;
+    background: #fff;
 }
 
 .team-section .section-title .title-desc {
@@ -1568,7 +1576,7 @@ footer ul.social li a i {
 /* Member Profile Pages */
 .member-profile {
     padding: 120px 0 80px;
-    background: #f8f8fc;
+    background: #fff;
 }
 
 .member-avatar-large {
@@ -1918,7 +1926,7 @@ footer ul.social li a i {
 /* About Page Styles */
 .about-hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #fff;
 }
 
 .about-hero h1 {
@@ -1936,6 +1944,7 @@ footer ul.social li a i {
 
 .mission-section {
     padding: 80px 0;
+    background: #fff;
 }
 
 .mission-section .lead {
@@ -1945,7 +1954,7 @@ footer ul.social li a i {
 }
 
 .values-section {
-    background: #f8f9fa;
+    background: #fff;
     padding: 80px 0;
 }
 
@@ -1973,6 +1982,7 @@ footer ul.social li a i {
 
 .approach-section {
     padding: 80px 0;
+    background: #fff;
 }
 
 .approach-list {
@@ -2022,7 +2032,7 @@ footer ul.social li a i {
 }
 
 .guarantees-section {
-    background: #f8f9fa;
+    background: #fff;
     padding: 80px 0;
 }
 
@@ -2151,14 +2161,14 @@ footer ul.social li a i {
 
 /* Service CTA Buttons */
 .service-cta {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 
 .service-cta .button {
-    min-width: 120px;
-    padding: 10px 20px;
-    font-size: 14px;
+    min-width: 100px;
+    padding: 8px 16px;
+    font-size: 13px;
     transition: all 0.3s ease;
 }
 
@@ -2206,7 +2216,7 @@ footer ul.social li a i {
 /* Service Pages Styles */
 .service-hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #fff;
 }
 
 .service-hero h1 {
@@ -2236,6 +2246,7 @@ footer ul.social li a i {
 
 .service-description {
     padding: 80px 0;
+    background: #fff;
 }
 
 .service-description .lead {
@@ -2245,8 +2256,16 @@ footer ul.social li a i {
 }
 
 .service-features {
-    background: #f8f9fa;
+    background: #fff;
     padding: 80px 0;
+}
+
+.service-features .row {
+    margin-bottom: 20px;
+}
+
+.service-features .row:last-child {
+    margin-bottom: 0;
 }
 
 .feature-card {
@@ -2255,7 +2274,7 @@ footer ul.social li a i {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     transition: all 0.3s ease;
     height: 100%;
 }
@@ -2295,6 +2314,7 @@ footer ul.social li a i {
 
 .service-process {
     padding: 80px 0;
+    background: #fff;
 }
 
 .process-step {
@@ -2330,7 +2350,7 @@ footer ul.social li a i {
 }
 
 .service-examples {
-    background: #f8f9fa;
+    background: #fff;
     padding: 80px 0;
 }
 
@@ -2397,6 +2417,7 @@ footer ul.social li a i {
 
 .service-testimonials {
     padding: 80px 0;
+    background: #fff;
 }
 
 .testimonial-card {
@@ -2610,8 +2631,53 @@ footer ul.social li a i {
 
 /* Testimonials Section Styles */
 .testimonials-section {
-    background: #f8f9fa;
+    background: #fff;
     padding: 80px 0;
+    overflow: hidden;
+}
+
+/* Testimonials Carousel Styles */
+.testimonials-carousel {
+    margin-bottom: 50px;
+}
+
+.testimonials-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.testimonials-row:first-child {
+    animation-name: scrollRight;
+}
+
+.testimonials-row:last-child {
+    animation-name: scrollLeft;
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.testimonials-row:hover {
+    animation-play-state: paused;
 }
 
 .testimonials-grid {
@@ -2631,6 +2697,8 @@ footer ul.social li a i {
     flex-direction: column;
     justify-content: space-between;
     min-height: 280px;
+    min-width: 350px;
+    flex-shrink: 0;
 }
 
 .testimonial-item:hover {
@@ -2730,9 +2798,14 @@ footer ul.social li a i {
         gap: 20px;
     }
 
+    .testimonials-row {
+        animation-duration: 20s;
+    }
+
     .testimonial-item {
         padding: 25px;
         min-height: auto;
+        min-width: 280px;
     }
 
     .testimonials-cta {
@@ -2749,8 +2822,14 @@ footer ul.social li a i {
         grid-template-columns: 1fr;
     }
 
+    .testimonials-row {
+        animation-duration: 15s;
+        gap: 20px;
+    }
+
     .testimonial-item {
         padding: 20px;
+        min-width: 250px;
     }
 
     .author-avatar {
